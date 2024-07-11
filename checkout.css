@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  padding: 0;
+  zoom: 80%;
+}
+.thepages{
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  visibility: hidden;
+  row-gap: 28px;
+  font-weight: bold;
+  padding-left: 155px;
+  padding-right: 155px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(220, 220, 211);
+  top: 11%;
+  right: 34%;
+  z-index: 1000;
+}
+
+.page{
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+}
+
+.navbar{
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+}
+  
+  .navbar {
+    position: fixed;
+    background-color: white;
+    z-index: 1002; 
+    height: 82px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .category-link{
+    text-decoration: none;
+    color: rgb(42, 32, 32);
+  }
+  .navbar-link{
+    text-decoration: none;
+    color: rgb(42, 32, 32);
+  }
+  .logo{
+    height: 70px;
+    width: 200px;
+    position: absolute;
+    top: 5px;
+    left: 45%;
+  }
+  .nav-icons{
+    position: absolute;
+    display: flex;
+    top: 27px;
+    gap: 19%;
+    font-family: sans-serif;
+    right: 172px;
+    
+    font-size: 18px;
+    
+    }
+    .nav-icons i{
+      font-size: 19px;
+      color: #262a32;
+      }
+    .category-link:hover{
+      border-bottom: 2px solid #000;
+    }
+  .nav-links{
+  position: absolute;
+  display: flex;
+  top: 33px;
+  gap: 14%;
+  font-family: sans-serif;
+  left: 43px;
+  font-size: 18px;
+  }
+  .about-container{
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 6px;
+  }
+  .login-container{
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 6px;
+  }
+
+  .fa-bars-staggered{
+    visibility: hidden;
+  }
+  .hide{
+    display: none;
+  }
+
+.checkout-container{
+  margin-top: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.checkout {
+  width: 600px;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 33px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+.menu-links{
+  display: none;
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 700px) {
+  .logo {
+    position: absolute;
+    left: 10px;
+    top: 13px;
+    height: 62px;
+    width: 113px;
+  }
+  
+  .fa-bars-staggered {
+    position: absolute;
+    top: 33px;
+    right: 4%;
+    visibility: visible;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .menu-links {
+    visibility: visible;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    row-gap: 28px;
+    font-weight: bold;
+    padding-left: 155px;
+    padding-right: 155px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(220, 220, 211);
+    margin-top: 22px;
+    right: 5%;
+    font-size: 22px;
+    z-index: 1000;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .menu-link {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+  }
+  
+  .about-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 6px;
+    font-size: 15px;
+  }
+  
+  .login-container {
+    position: absolute;
+    margin-left: 58px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 6px;
+    font-size: 15px;
+  }
+  
+  .thepages {
+    z-index: 1000000;
+    padding: 30px;
+    right: 288px;
+    visibility: visible;
+  }
+  
+  .nav-links {
+    display: none;
+  }
+  
+  .checkout {
+    width: 480px;
+    margin-top: -16px;
+    margin-left: 2px;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+}

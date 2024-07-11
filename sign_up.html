@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sign_up.css">
+  <script src="https://kit.fontawesome.com/088fc2cb61.js" crossorigin="anonymous"></script>
+  <title>VeGa | Sign Up</title>
+</head>
+<body>
+  <nav id="navbar" class="navbar">
+    <div class="menu">
+      <a href="home.html"><img class="logo" src="images/vega-logo.png" alt="logo"></a>
+      <i onclick="toggleMenu()" class="fa-solid fa-bars-staggered"></i>
+
+      <div style="display: none;" id="menu-links" class="menu-links hide">
+        <a class="menu-link" href="home.html">Home</a>
+        <a class="menu-link" href="about_us.html">About</a>
+        <a class="menu-link" onclick="togglePages()">Pages</a>
+        <a class="menu-link" href="login.html">Login</a>
+      </div>
+      
+      <div class="nav-links" id="nav-links">
+        <a class="category-link" href="women.html">Women</a>
+        <a class="category-link" href="man.html">Man</a>
+        <a class="category-link" href="kids.html">Kids</a>
+        <a class="category-link" href="jewelry&accessories.html">Jewelry</a>
+        <a class="category-link" href="home.html">Home</a>
+      </div>
+      
+      <div class="nav-icons">
+        <div class="about-container">
+          <i class="fa-solid fa-exclamation"></i>
+          <a class="navbar-link" href="about_us.html">About</a>
+        </div>
+        <div class="login-container">
+          <i class="fa-solid fa-arrow-right-to-bracket"></i>
+          <a class="navbar-link" href="login.html">Login</a>
+        </div>
+      </div>
+    </div>  
+  </nav>
+  
+  <div style="display: none;" id="thepages" class="thepages hide">
+    <a class="page" href="jewelry&accessories.html">Jewelry</a>
+    <a class="page" href="women.html">Women</a>
+    <a class="page" href="man.html">Man</a>
+    <a class="page" href="kids.html">Kids</a>
+  </div>
+  
+  <div class="outer-container">
+    <div class="container">
+      <h1 class="registration-title">Registration</h1>
+
+      <form id="client-form" class="active" action="" method="post">
+        <label for="client_username">Username</label>
+        <input type="text" id="client_username" name="client_username" placeholder="Your Username" required>
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <hr>
+
+        <label class="email" for="client_email">Email</label>
+        <input type="email" id="client_email" name="client_email" placeholder="Your Email" required>
+        <i class="fas fa-envelope"></i>
+        <hr>
+
+        <label class="password" for="client_password">Password</label>
+        <div style="position: relative;">
+          <input type="password" id="client_password" name="client_password" placeholder="********" required>
+          <i id="eye" onclick="togglePasswordVisibility()" class="fas fa-eye-slash"></i>
+          <i id="eye2" onclick="togglePasswordVisibility()" class="fas fa-eye" style="display: none;"></i>
+        </div>
+        <hr>
+
+        <input class="checkbox" type="checkbox" value="Checkout">
+        <p class="terms-conditions">I agree to the terms & conditions</p>
+        
+        <button type="submit">Register</button>
+        <p class="have-account">Already have an account? <a class="login-link" href="login.html"><span>Login</span></a></p>
+      </form>
+    </div>
+  </div>
+  
+  <script src="home.js"></script> 
+</body>
+</html>

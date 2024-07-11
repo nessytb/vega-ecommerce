@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vega | home </title>
+  <script src="https://kit.fontawesome.com/4029073a58.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" type="text/css" href="home.css">
+  <link rel="stylesheet" type="text/css" href="footer.css">
+</head>
+<body>
+  <img class="pic" src="images/back.svg" alt="picture">
+
+  <div class="shopping-cart">
+    <h1>Cart</h1>
+    <ul class="cart-items"></ul>
+    <a href="checkout.html" class="buy-now">Buy now</a>
+    <div class="checkout">
+      <div class="total-amount">0</div>
+      <div class="close-shopping">Close</div>
+    </div>
+  </div>
+
+  <div id="navbar-container"></div>
+
+  <div id="searchBar" class="search">
+    <input id="searchinput" class="type-search" placeholder="Type and hit enter to search EX: CORE FEATURES">
+    <div class="">
+      <div class="delete" onclick="toggleSearch()">✕</div>
+    </div>
+  </div>
+
+  <div id="searchbar" class="search">
+    <input id="searchinputt" class="type-search" placeholder="Type and hit enter to search EX: CORE FEATURES">
+    <div class="">
+      <div class="delete" onclick="toggleSearchh()">✕</div>
+    </div>
+  </div>
+
+  <p id="main-paragraph" class="main-title">The Best Html+ eCommerce ever</p>
+  <p id="secondary-paragraph" class="secondary-title">This site will be ready soon!</p>
+
+  <div class="pages">
+    <img class="page1" src="images/page1.jpeg" alt="pages">
+    <img class="page2" src="images/page2.jpeg" alt="pages">
+    <img class="page3" src="images/page3.jpeg" alt="pages">
+    <img class="page4" src="images/page4.jpeg" alt="pages">
+    <img class="page5" src="images/page5.jpeg" alt="pages">
+  </div>
+
+  <img class="star-background" src="images/star-background.webp" alt="">
+  <img class="star2-background" src="images/star2-background.webp" alt="">
+  <img class="triangle-background" src="images/triangle-image.png" alt="">
+  <img class="circle-background" src="images/circle-image.png" alt="">
+
+  <p class="section-title">PRE-BUILT DEMOS</p>
+  <div class="category-container"> 
+    <button class="category-button" onclick="filterProduct('All')">All ></button>
+    <button class="category-button" onclick="filterProduct('Kids')">Kids ></button>
+    <button class="category-button" onclick="filterProduct('Man')">Man ></button>
+    <button class="category-button" onclick="filterProduct('Women')">Women ></button>
+    <button class="category-button" onclick="filterProduct('Jewelry')">Jewelry ></button>
+  </div>
+
+  <div id="products"></div>
+
+  <div class="responsiveweb">
+    <div>
+      <p class="MobileOptimized">Mobile Optimized</p>
+      <p class="design">Design</p>
+      <p class="res">Each & every function of this amazing template will run impeccably in almost every device like - desktop, laptop, tablets and mobile phone.</p>
+    </div>
+    <div class="responsivee">
+      <div class="phone">
+        <div class="screen">
+          <img src="images/pageinphone.png" alt="Your Website">
+        </div>
+      </div>
+      <div class="pc">
+        <div class="pcscreen">
+          <img src="images/pageinpc.png" alt="Your Website">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h1>CORE FEATURES</h1>
+  <div class="featured">
+    <div>
+      <img class="loader" src="images/loaderweb.webp" alt="smart loader"/>
+      <p class="featuredelements">Smart Loader</p>
+    </div>
+    <div>
+      <img class="resp" src="images/res.webp" alt="responsive web"/>
+      <p class="featuredelements">Responsive and Retina Ready</p>
+    </div>
+    <div>
+      <img class="filter" src="images/filter.jpg" alt="Filter and Sort Options"/>
+      <p class="featuredelements">Filter and Sort Options</p>
+    </div>
+  </div>
+
+  <h2><a class="back-to-top" href="home.html">Back to top</a></h2>
+
+  <footer class="fooTer">
+    <div class="cont-ainer">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="about_us.html">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>online shop</h4>
+          <ul>
+            <li><a href="women.html">Women</a></li>
+            <li><a href="man.html">Man</a></li>
+            <li><a href="kids.html">Kids</a></li>
+            <li><a href="jewelery&accessories.html">jewelery</a></li>
+            <li><a href="home.html">home</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="home.js"></script>
+  <script src="nav.js"></script>
+</body>
+</html>

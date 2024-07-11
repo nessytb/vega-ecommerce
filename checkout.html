@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="checkout.css">
+  <script src="https://kit.fontawesome.com/088fc2cb61.js" crossorigin="anonymous"></script>
+  <title>VeGa | Checkout</title>
+</head>
+<body>
+  <nav id="navbar" class="navbar">
+    <div class="menu">
+      <a href="home.html">
+        <img class="logo" src="images/vega-logo.png" alt="logo">
+      </a>
+      <i onclick="toggleMenu()" class="fa-solid fa-bars-staggered"></i>
+      <div id="menu-links" class="menu-links hide">
+        <a class="menu-link" href="home.html">Home</a>
+        <a class="menu-link" href="about_us.html">About</a>
+        <a class="menu-link" onclick="togglePages()">Pages</a>
+        <a class="menu-link" href="login.html">Login</a>
+      </div>
+      <div class="nav-links" id="nav-links">
+        <a class="category-link" href="women.html">Women</a>
+        <a class="category-link" href="man.html">Man</a>
+        <a class="category-link" href="kids.html">Kids</a>
+        <a class="category-link" href="jewelry&accessories.html">Jewelry</a>
+        <a class="category-link" href="home.html">Home</a></div>
+        <div class="nav-icons">
+          <div class="about-container">
+            <i class="fa-solid fa-exclamation"></i>
+            <a class="navbar-link" href="about_us.html">About</a>
+          </div>
+          <div class="login-container">
+            <i class="fa-solid fa-arrow-right-to-bracket"></i>
+            <a class="navbar-link" href="login.html">Login</a>
+          </div>
+        </div>
+    </div>
+  </nav>
+
+  <div style="display: none;" id="thepages" class="thepages hide">
+    <a class="page" href="jewelry&accessories.html">Jewelry</a>
+    <a class="page" href="women.html">Women</a>
+    <a class="page" href="man.html">Man</a>
+    <a class="page" href="kids.html">Kids</a>
+  </div>
+
+  <!-- Checkout Content -->
+  <div class="checkout-container">
+    <div class="checkout">
+      <h1 class="main-title">Payment</h1>
+      <form id="checkout">
+        <div class="form-group">
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" name="first-name" required>
+        </div>
+        <div class="form-group">
+          <label for="surname">Surname</label>
+          <input type="text" id="surname" name="surname" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="address">Address</label>
+          <textarea id="address" name="address" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="card-number">Card Number</label>
+          <input type="text" id="card-number" name="card-number" required>
+        </div>
+        <div class="form-group">
+          <label for="expiry-date">Expiration Date</label>
+          <input type="text" id="expiry-date" name="expiry-date" required>
+        </div>
+        <div class="form-group">
+          <label for="cvv">CVV</label>
+          <input type="text" id="cvv" name="cvv" required>
+        </div>
+        <div class="form-group">
+          <label for="payment-method">Method of Payment</label>
+          <select id="payment-method" name="payment-method" required>
+            <option value="">Select a payment method</option>
+            <option value="card">Credit/Debit Card</option>
+            <option value="hand-to-hand">Hand to Hand Payment</option>
+          </select>
+        </div>
+        <button type="submit" class="submit-btn">Validate the Order</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="home.js"></script>
+</body>
+</html>

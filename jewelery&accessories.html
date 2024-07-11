@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VeGa | Jewelry</title>
+  <link rel="stylesheet" href="jewelry.css">
+  <link rel="stylesheet" href="footer.css">
+  <script src="https://kit.fontawesome.com/4029073a58.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="shopping-cart">
+    <h1>Cart</h1>
+    <ul class="cart-items"></ul>
+    <a href="checkout.html" class="buy-now">Buy now</a>
+    <div class="checkout">
+      <div class="total-amount">0</div>
+      <div class="close-shopping">Close</div>
+    </div>
+  </div>
+  
+  <nav id="navbar" class="navbar">
+    <div class="menu">
+      <a href="home.html"><img class="logo" src="images/vega-logo.png" alt="logo"></a>
+      <i onclick="toggleMenu()" class="fa-solid fa-bars-staggered"></i>
+      <div id="menu-links" class="menu-links hide">
+        <a class="menu-link" href="home.html">Home</a>
+        <a class="menu-link" href="about_us.html">About</a>
+        <a class="menu-link" onclick="togglePages()">Pages</a>
+        <a class="menu-link" href="login.html">Login</a>
+      </div>
+      <div class="nav-links" id="nav-links">
+        <a class="category-link" href="women.html">Women</a>
+        <a class="category-link" href="men.html">Men</a>
+        <a class="category-link" href="kids.html">Kids</a>
+        <a class="category-link" href="jewelry&accessories.html">Jewelry</a>
+        <a class="category-link" href="home.html">Home</a>
+      </div>
+      <div class="nav-icons">
+        <div class="about-container">
+          <i class="fa-solid fa-exclamation"></i>
+          <a class="navbar-link" href="about_us.html">About</a>
+        </div>
+        <div class="login-container">
+          <i class="fa-solid fa-arrow-right-to-bracket"></i>
+          <a class="navbar-link" href="login.html">Login</a>
+        </div>
+        <div class="cart-container">
+          <div class="cart-summary">
+            <i class="fa-brands fa-opencart"></i>
+            <p class="count">0</p>
+          </div>
+          <a class="navbar-link">Cart</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <img id="main-image" class="main-image" src="images/hande3.jpg" alt="main image">
+
+  <div class="introduction">
+    <p id="main-title" class="main-title">Jewelry</p>
+    <div>
+      <p id="sub-title" class="sub-title">Princess cut diamond encrusted engagement</p>
+      <p id="subtitle" class="subtitle">Bridal set in 14k white gold</p>
+    </div>
+  </div>
+ 
+  <div class="categories">
+    <div class="category-item">
+      <img src="images/earing.jpg" alt="">
+      <p class="earing">Earrings</p>
+    </div>
+    <div class="category-item">
+      <img src="images/diamondwatch.jpg" alt="">
+      <p class="watches">Watches</p>
+    </div>
+    <div class="category-item">
+      <img src="images/ring.jpg" alt="">
+      <p class="rings">Rings</p>
+    </div>
+    <div class="category-item">
+      <img src="images/neckless.jpg" alt="">
+      <p class="necklace">Necklaces</p>
+    </div>
+  </div>
+
+  <div class="featured-product">
+    <div>
+      <img class="featured-image" src="images/featuredjewelry.jpg" alt="featured product">
+    </div>
+    <div>
+      <p id="featuredfroduct" class="featured-title">Featured Product</p>
+      <p class="featured-description">Offering various types of jewelry, we let you put a personal touch on them. This quality collection is handcrafted in USA.</p>
+      <p class="product-price">31.00 $</p>
+      <button class="purchase-button">PURCHASE</button>
+    </div>
+  </div>
+
+  <p class="section-title">TRENDY PRODUCTS</p>
+  <div class="wrapper">
+    <div id="search-container">
+      <input type="search" id="search-input" placeholder="search something">
+      <button id="search">Search</button>
+    </div>
+
+    <div id="buttons">
+      <button class="button-value" onclick="filterProduct('All')">All</button>
+      <button class="button-value" onclick="filterProduct('Earrings')">Earrings</button>
+      <button class="button-value" onclick="filterProduct('necklace')">Necklaces</button>
+      <button class="button-value" onclick="filterProduct('Rings')">Rings</button>
+      <button class="button-value" onclick="filterProduct('Bracelet')">Bracelets</button>
+    </div>
+    <div id="products"></div>
+  </div>
+
+  <div id="thepages" class="thepages">
+    <a class="page" href="jewelry&accessories.html">Jewelry</a>
+    <a class="page" href="women.html">Women</a>
+    <a class="page" href="man.html">Man</a>
+    <a class="page" href="kids.html">Kids</a>
+  </div>
+  
+  <div class="search">
+    <i id="fa-magnifying-glass" class="fa-solid fa-magnifying-glass"></i>
+    <input type="search" id="searchinput" class="search-icon" placeholder="EX: TRENDY PRODUCTS">
+    <hr>
+    <p class="jewelrytitle">Jewelry</p>
+  </div>
+
+  <p id="edition" class="limited-edition">LIMITED EDITION</p>
+  <div class="slider-section">
+    <div class="limited-products">
+      <div class="slider-item">
+        <img id="li4" class="limiteedition" src="images/watch2.png" alt="limited edition">
+      </div>
+      <div class="slider-item">
+        <img id="li5" class="limiteedition" src="images/ring.png" alt="limited edition">
+      </div>
+      <div class="slider-item">
+        <img class="limiteedition" src="images/neckless2.png" alt="limited edition">
+      </div>
+      <div class="slider-item">
+        <img class="limiteedition" src="images/braclet.png" alt="limited edition">
+      </div>
+      <div class="slider-item">
+        <img id="li4" class="limiteedition" src="images/watch2.png" alt="limited edition">
+      </div>
+      <div class="slider-item">
+        <img id="li5" class="limiteedition" src="images/ring.png" alt="limited edition">
+      </div>
+      <div class="slider-item">
+        <img class="limiteedition" src="images/neckless2.png" alt="limited edition">
+      </div>
+      <div class="slider-item">
+        <img class="limiteedition" src="images/braclet.png" alt="limited edition">
+      </div>
+    </div>
+  </div>
+
+  <div class="call-to-action">
+    <p class="cta-title">Shop Our Jewelry Collection</p>
+    <p class="cta-description">Explore elegance and craftsmanship in our exquisite and timeless jewelry collection today</p>
+    <div class="cta-button">
+      <button class="get-started-button">GET STARTED</button>
+    </div>
+    <h2 class="back-to-top"><a class="back-to-top-link" href="jewelry&accessories.html">Back to top</a></h2>
+  </div>
+
+  <footer class="fooTer">
+    <div class="cont-ainer">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Affiliate Program</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Get Help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Order Status</a></li>
+            <li><a href="#">Payment Options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Online Shop</h4>
+          <ul>
+            <li><a href="women.html">Women</a></li>
+            <li><a href="man.html">Men</a></li>
+            <li><a href="kids.html">Kids</a></li>
+            <li><a href="jewelery&accessories.html">Jewelry</a></li>
+            <li><a href="home.html">Home</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function togglePages() {
+      const page = document.getElementById('thepages');
+      if (page.style.display == 'none') {
+        page.style.display = 'flex';
+        page.classList.add("thepages");
+      } else {
+        page.style.display = 'none';
+      }
+    }
+
+    function toggleMenu() {
+      const page = document.getElementById('thepages');
+      const lienn = document.getElementById('menu-links');
+      if (lienn.style.display == 'none') {
+        lienn.style.display = 'flex';
+        lienn.classList.add("menu-links");
+      } else {
+        lienn.style.display = 'none';
+        page.style.display = 'none';
+      }
+    }
+  </script>
+
+  <script src="jewelry.js"></script>
+</body>
+</html>
+
