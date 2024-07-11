@@ -503,7 +503,7 @@ img {
 .pics h2 {
   top: 30%; 
   margin: 0;
-  font-size: 103px;
+  font-size: 93px;
   text-decoration-thickness: .0625rem;
   text-underline-offset: .25rem;
   letter-spacing: 9px;
@@ -600,11 +600,13 @@ img {
   }
   
   .pics h5 {
-    margin-top: 83px;
+    margin-top: 98px;
+    
   }
   
   .pics h2 {
     margin-top: 3px;
+    font-size: 73px;
   }
   
   .shop, .shopp {
@@ -676,5 +678,6 @@ img {
   }
   .summers h5{
     margin-top: 112px;
+    
   }
 }
