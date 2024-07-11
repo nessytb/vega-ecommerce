@@ -29,7 +29,7 @@ body {
   height: 850px;
   width: 650px;
   right: 24%;
-  top: 92px;
+  top: 4px;
   animation-name: s1;
   animation-delay: 0s;
   visibility: hidden;
@@ -69,7 +69,7 @@ body {
   position: absolute;
   height: 750px;
   width: 650px;
-  right: 29%;
+  right: 4%;
   top: 142px;
   animation-name: s2;
   animation-delay: 0s; 
@@ -558,7 +558,7 @@ img {
     position: absolute;
     height: 540px;
     width: 390px;
-    left: 30%;
+    left: 20%;
     top: 95px;
     overflow: hidden;
     animation-name: s1;
@@ -574,7 +574,7 @@ img {
     position: absolute;
     height: 540px;
     width: 390px;
-    left: 30%;
+    left: 20%;
     top: 95px;
     animation-name: s2;
     animation-delay: 0s;
