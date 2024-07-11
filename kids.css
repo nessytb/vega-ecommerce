@@ -463,7 +463,17 @@ img {
 }
 
 @media screen and (max-width: 750px) {
-
+.categories-container p {
+  position: absolute;
+  font-size: 73px;
+  top: 442px;
+  width: 600px;
+  font-weight: bolder;
+  z-index: 20;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
   .main-image{
     position: relative;
     width: 100%;
