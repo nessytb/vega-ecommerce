@@ -556,9 +556,9 @@ img {
   }
   .main-img{
     position: absolute;
-    height: 540px;
-    width: 390px;
-    left: 20%;
+    height: 520px;
+    width: 370px;
+    left: 15%;
     top: 95px;
     overflow: hidden;
     animation-name: s1;
@@ -572,9 +572,9 @@ img {
   }
   .secondary-image{
     position: absolute;
-    height: 540px;
-    width: 390px;
-    left: 20%;
+    height: 520px;
+    width: 370px;
+    left: 15%;
     top: 95px;
     animation-name: s2;
     animation-delay: 0s;
