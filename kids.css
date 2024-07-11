@@ -463,11 +463,14 @@ img {
 }
 
 @media screen and (max-width: 750px) {
+  body{
+    overflow: hidden;
+  }
 .categories-container p {
   position: absolute;
   font-size: 73px;
   top: 442px;
-  width: 600px;
+  width: 550px;
   font-weight: bolder;
   z-index: 20;
   font-family: sans-serif;
