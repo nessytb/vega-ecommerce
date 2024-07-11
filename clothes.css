@@ -28,8 +28,8 @@ body {
   position: absolute;
   height: 850px;
   width: 650px;
-  right: 24%;
-  top: 4px;
+  right: 4%;
+  top: 124px;
   animation-name: s1;
   animation-delay: 0s;
   visibility: hidden;
