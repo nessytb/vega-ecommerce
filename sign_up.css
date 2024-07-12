@@ -258,24 +258,18 @@ hr {
 }
 
 @media screen and (max-width: 700px) {
-body {
-  margin: 0;
-  padding: 0;
-  zoom: 60%;
-  overflow: hidden;
-}
   button[type="submit"] {
     width: 85%;
 }
 
 hr {
-    width: 85%;
+    width: 75%;
     border: 1px solid black;
     margin-left: 0;
 }
 
 .outer-container {
-    margin-left: 33px;
+    margin-left: 153px;
 }
 
 .nav-links {
@@ -345,16 +339,55 @@ hr {
 
 .thepages {
   position: absolute;
-  display: none;
-  flex-direction: column;
-  row-gap: 28px;
-  font-weight: bold;
-  background-color: rgb(220, 220, 211);
-  top: 11%;
-  z-index: 1000000;
-  padding: 30px;
-  right: 288px;
-  visibility: visible;
+display: none;
+
+flex-direction: column;
+row-gap: 28px;
+font-weight: bold;
+background-color: rgb(220, 220, 211);
+top: 11%;
+    z-index: 1000000;
+    padding: 30px;
+    right: 288px;
+    visibility: visible;
+}
+button[type="submit"] {
+  display: block;
+  width: 66%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 112px;
+}
+
+hr {
+  width: 67%;
+  border: 1px solid black;
+  margin-left: 0px;
+}
+
+.fa-envelope {
+  position: absolute;
+  top: 43%;
+  left: 420px;
+  transform: translateY(-50%);
+}
+
+.fa-eye-slash, .fa-eye {
+  position: absolute;
+  top: 60%;
+  left: 375px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.fa-user {
+  position: absolute;
+  top: 208px;
+  left: 420px;
 }
 
 }
