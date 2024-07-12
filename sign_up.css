@@ -273,7 +273,6 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
   left: 33px;
 }
 .container {
@@ -282,7 +281,6 @@ hr {
   padding: 0;
   height: 608px;
   width: 609px;
-  overflow: hidden;
 }
 .nav-links {
     display: none;
