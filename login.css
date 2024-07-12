@@ -375,13 +375,13 @@ hr {
     padding: 0;
     margin-left: 155px;
     overflow: hidden;
-    width: 579px;
   }
   
   .container {
     position: absolute;
     top: 229px;
     height: 528px;
+    padding: 0;
     width: 589px;
     display: flex;
     justify-content: center;
