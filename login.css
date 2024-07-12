@@ -290,7 +290,7 @@ hr {
   visibility: hidden;
 }
 @media only screen and (max-width: 700px) {
- .about-container {
+  .about-container {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -380,7 +380,6 @@ hr {
   .container {
     position: absolute;
     top: 229px;
-    padding: 52px 0;
     height: 528px;
     width: 589px;
     display: flex;
@@ -415,7 +414,7 @@ hr {
   }
   button[type="submit"] {
     display: block;
-    width: 75%;
+    width: 72%;
     padding: 10px;
     background-color: black;
     color: white;
