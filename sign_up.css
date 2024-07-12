@@ -390,4 +390,13 @@ hr {
   left: 420px;
 }
 
+.container {
+  position: absolute;
+  top: 129px;
+  padding-right: 0;
+  height: 608px;
+  width: 549px;
+  overflow: hidden;
+}
+
 }
