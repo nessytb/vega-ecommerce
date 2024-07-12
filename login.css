@@ -432,5 +432,11 @@ hr {
     left: 262px;
     font-size: 18px;
   }
+  body {
+  margin: 0;
+  padding: 0;
+  zoom: 80%;
+  overflow: hidden;
+}
   
 }
