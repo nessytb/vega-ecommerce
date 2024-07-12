@@ -270,6 +270,7 @@ hr {
 
 .outer-container {
     margin-left: 153px;
+    overflow: hidden;
 }
 
 .nav-links {
@@ -393,9 +394,9 @@ hr {
 .container {
   position: absolute;
   top: 129px;
-  padding-right: 0;
+  padding: 0;
   height: 608px;
-  width: 549px;
+  width: 609px;
   overflow: hidden;
 }
 
