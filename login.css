@@ -308,7 +308,7 @@ hr {
     row-gap: 6px;
     font-size: 15px;
   }
-  
+
   .thepages {
     position: absolute;
     display: none;
@@ -334,16 +334,16 @@ hr {
     height: 62px;
     width: 113px;
   }
-  
-  .fa-bars-staggered {
+    
+.fa-bars-staggered {
     position: absolute;
     top: 33px;
-    left: 368px;
+    right: 4%;
     visibility: visible;
     color: black;
     font-size: 25px;
-  }
-  
+}
+
   .menu-links {
     position: absolute;
     display: flex;
@@ -423,20 +423,7 @@ hr {
     cursor: pointer;
     margin-top: 72px;
   }
-  .nav-icons {
-    position: absolute;
-    display: flex;
-    top: 27px;
-    gap: 19%;
-    font-family: sans-serif;
-    left: 262px;
-    font-size: 18px;
-  }
-  body {
-  margin: 0;
-  padding: 0;
-  zoom: 80%;
-  overflow: hidden;
-}
+
+
   
 }
