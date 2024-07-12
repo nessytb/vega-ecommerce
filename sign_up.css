@@ -269,9 +269,21 @@ hr {
 }
 
 .outer-container {
-    margin-left: 53px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  left: 33px;
 }
-
+.container {
+  position: absolute;
+  top: 129px;
+  padding: 0;
+  height: 608px;
+  width: 609px;
+  overflow: hidden;
+}
 .nav-links {
     display: none;
 }
