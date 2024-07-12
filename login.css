@@ -290,7 +290,7 @@ hr {
   visibility: hidden;
 }
 @media only screen and (max-width: 700px) {
-  .about-container {
+ .about-container {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -367,6 +367,62 @@ hr {
     text-decoration: none;
     color: black;
     font-size: 22px;
+  }
+  .outer-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    padding: 0;
+    margin-left: 155px;
+    overflow: hidden;
+  }
+  
+  .container {
+    position: absolute;
+    top: 229px;
+    padding: 52px 0;
+    height: 528px;
+    width: 589px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .fa-envelope {
+    position: absolute;
+    top: 21%;
+    left: 390px;
+    transform: translateY(-50%);
+  }
+  
+  .fa-eye-slash, .fa-eye {
+    position: absolute;
+    top: 50%;
+    left: 380px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  hr {
+    width: 74%;
+    border: 1px solid black;
+    margin-left: 0px;
+  }
+  .forget-password {
+    position: absolute;
+    top: 324px;
+    left: 300px;
+  }
+  button[type="submit"] {
+    display: block;
+    width: 75%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 72px;
   }
   
 }
