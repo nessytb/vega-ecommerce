@@ -423,5 +423,14 @@ hr {
     cursor: pointer;
     margin-top: 72px;
   }
+  .nav-icons {
+    position: absolute;
+    display: flex;
+    top: 27px;
+    gap: 19%;
+    font-family: sans-serif;
+    left: 262px;
+    font-size: 18px;
+  }
   
 }
