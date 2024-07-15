@@ -263,14 +263,9 @@ hr {
     width: 85%;
 }
 
-hr {
-    width: 75%;
-    border: 1px solid black;
-    margin-left: 0;
-}
-
 .outer-container {
     margin-left: 153px;
+    width: 509px;
 }
 
 .nav-links {
