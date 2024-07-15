@@ -362,6 +362,7 @@ button[type="submit"] {
   border-radius: 5px;
   cursor: pointer;
   margin-top: 112px;
+  overflow: hidden;
 }
 
 hr {
@@ -374,14 +375,12 @@ hr {
   position: absolute;
   top: 43%;
   left: 420px;
-  transform: translateY(-50%);
 }
 
 .fa-eye-slash, .fa-eye {
   position: absolute;
   top: 60%;
   left: 375px;
-  transform: translateY(-50%);
   cursor: pointer;
 }
 
