@@ -308,7 +308,7 @@ hr {
     row-gap: 6px;
     font-size: 15px;
   }
-
+  
   .thepages {
     position: absolute;
     display: none;
@@ -334,16 +334,16 @@ hr {
     height: 62px;
     width: 113px;
   }
-    
-.fa-bars-staggered {
+  
+  .fa-bars-staggered {
     position: absolute;
     top: 33px;
     right: 4%;
     visibility: visible;
     color: black;
     font-size: 25px;
-}
-
+  }
+  
   .menu-links {
     position: absolute;
     display: flex;
@@ -381,7 +381,6 @@ hr {
     position: absolute;
     top: 229px;
     height: 528px;
-    padding: 0;
     width: 589px;
     display: flex;
     justify-content: center;
