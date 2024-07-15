@@ -264,8 +264,9 @@ hr {
 }
 
 .outer-container {
-    margin-left: 153px;
-    width: 509px;
+    margin-left: 13px;
+    width: 100%;
+    overflow: hidden;
 }
 
 .nav-links {
