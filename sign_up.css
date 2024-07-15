@@ -257,6 +257,7 @@ hr {
   visibility: hidden;
 }
 
+
 @media screen and (max-width: 700px) {
   button[type="submit"] {
     width: 85%;
@@ -269,19 +270,9 @@ hr {
 }
 
 .outer-container {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  left: 33px;
+    margin-left: 153px;
 }
-.container {
-  position: absolute;
-  top: 129px;
-  padding: 0;
-  height: 608px;
-  width: 609px;
-}
+
 .nav-links {
     display: none;
 }
