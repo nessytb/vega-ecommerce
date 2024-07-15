@@ -258,9 +258,7 @@ hr {
 }
 
 @media screen and (max-width: 700px) {
-  button[type="submit"] {
-    width: 85%;
-}
+
 
 .outer-container {
     margin-left: 13px;
@@ -292,7 +290,7 @@ hr {
 .fa-bars-staggered {
     position: absolute;
     top: 33px;
-    right: 4%;
+    right: 7%;
     visibility: visible;
     color: black;
     font-size: 25px;
@@ -358,7 +356,7 @@ top: 11%;
 }
 button[type="submit"] {
   display: block;
-  width: 66%;
+  width: 86%;
   padding: 10px;
   background-color: black;
   color: white;
@@ -370,7 +368,7 @@ button[type="submit"] {
 }
 
 hr {
-  width: 67%;
+  width: 87%;
   border: 1px solid black;
   margin-left: 0px;
 }
@@ -378,20 +376,20 @@ hr {
 .fa-envelope {
   position: absolute;
   top: 43%;
-  left: 420px;
+  left: 370px;
 }
 
 .fa-eye-slash, .fa-eye {
   position: absolute;
   top: 60%;
-  left: 375px;
+  left: 370px;
   cursor: pointer;
 }
 
 .fa-user {
   position: absolute;
   top: 208px;
-  left: 420px;
+  left: 370px;
 }
 
 }
