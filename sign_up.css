@@ -369,14 +369,14 @@ button[type="submit"] {
 }
 
 hr {
-  width: 87%;
+  width: 92%;
   border: 1px solid black;
   margin-left: 0px;
 }
 
 .fa-envelope {
   position: absolute;
-  top: 43%;
+  top: 52%;
   left: 370px;
 }
 
@@ -389,7 +389,7 @@ hr {
 
 .fa-user {
   position: absolute;
-  top: 208px;
+  top: 188px;
   left: 370px;
 }
 
