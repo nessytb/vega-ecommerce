@@ -162,7 +162,7 @@ button[type="submit"] a {
 
 .fa-envelope {
   position: absolute;
-  top: 291px;
+  top: 321px;
   right: 100px;
 }
 
@@ -190,7 +190,7 @@ input[type="password"]::-webkit-outer-spin-button {
 }
 
 hr {
-  width: 90%;
+  width: 98%;
   border: 1px solid black;
   margin-left: 0px;
   margin-bottom: 36px;
@@ -234,7 +234,7 @@ hr {
   top: 129px;
   padding: 42px;
   padding-right: 0;
-  height: 608px;
+  height: 628px;
   width: 609px;
   overflow: hidden;
 }
