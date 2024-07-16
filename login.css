@@ -369,21 +369,20 @@ hr {
     font-size: 22px;
   }
   
-  .container {
-    position: absolute;
-    top: 229px;
-    height: 528px;
-    width: 409px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.outer-container {
+    margin-left: 13px;
     padding: 0;
-    overflow: hidden;
-  }
-  .outer-container {
-    margin-left: 53px;
-    padding: 0;
-  }
+}
+
+.container {
+  position: absolute;
+  top: 129px;
+  padding: 0;
+  padding-right: 0;
+  height: 528px;
+  width: 409px;
+  overflow: hidden;
+}
 
   .fa-envelope {
     position: absolute;
