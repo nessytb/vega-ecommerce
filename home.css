@@ -1009,7 +1009,7 @@ h1 {
   
   #products {
     grid-template-columns: auto;
-    margin-left: 25px;
+    margin-left: 5px;
   }
   
   .icon {
@@ -1066,7 +1066,7 @@ h1 {
   .list {
     grid-template-columns: auto;
     grid-row-gap: 1.5em;
-    margin-left: 5%;
+    margin-left: 1%;
     margin-top: 260%;
   }
   
