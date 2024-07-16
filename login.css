@@ -376,49 +376,70 @@ hr {
 
 .container {
   position: absolute;
-  top: 129px;
+  top: 229px;
   padding: 0;
-  padding-right: 0;
-  height: 528px;
+  height: 588px;
   width: 409px;
   overflow: hidden;
 }
 
   .fa-envelope {
     position: absolute;
-    top: 21%;
-    left: 380px;
+    top: 19%;
+    left: 370px;
   }
   
   .fa-eye-slash, .fa-eye {
     position: absolute;
-    top: 50%;
-    left: 380px;
+    top: 48%;
+    left: 360px;
     cursor: pointer;
   }
   
   hr {
-    width: 74%;
+    width: 98%;
     border: 1px solid black;
     margin-left: 0px;
   }
   .forget-password {
     position: absolute;
-    top: 324px;
-    left: 300px;
+    top: 317px;
+    left: 270px;
   }
   button[type="submit"] {
     display: block;
-    width: 72%;
+    width: 98%;
     padding: 10px;
     background-color: black;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 72px;
+    margin-top: 42px;
+    margin-left: 7px;
   }
 
+  .checkbox {
+    margin-left: 13px;
+  }
+  input[type="email"],
+  input[type="password"],
+  input[type="text"] {
+    display: block;
+    width: 390px;
 
-  
+    
+}
+.remember-me {
+  position: absolute;
+  top: 317px;
+  left: 44px;
+}
+
+.login-title {
+  position: absolute;
+  top: -30px;
+  left: 10px;
+  font-size: 38px;
+}
 }
