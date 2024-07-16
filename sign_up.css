@@ -193,10 +193,11 @@ hr {
   width: 90%;
   border: 1px solid black;
   margin-left: 0px;
+  margin-bottom: 36px;
 }
 
 .password .email {
-  margin-top: 63px;
+  margin-top: 33px;
 }
 
 .checkbox {
