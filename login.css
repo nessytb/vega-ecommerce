@@ -368,25 +368,23 @@ hr {
     color: black;
     font-size: 22px;
   }
-  .outer-container {
-    display: flex;
-    justify-content: center; 
-    align-items: center;   
-    padding: 0;
-    margin-left: 155px;
-    overflow: hidden;
-  }
   
   .container {
     position: absolute;
     top: 229px;
     height: 528px;
-    width: 589px;
+    width: 409px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
     overflow: hidden;
   }
+  .outer-container {
+    margin-left: 13px;
+    padding: 0;
+  }
+
   .fa-envelope {
     position: absolute;
     top: 21%;
