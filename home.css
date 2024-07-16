@@ -1066,7 +1066,7 @@ h1 {
   .list {
     grid-template-columns: auto;
     grid-row-gap: 1.5em;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 260%;
   }
   
