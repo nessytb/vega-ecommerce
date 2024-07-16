@@ -202,7 +202,7 @@ hr {
 
 .checkbox {
   position: absolute;
-  top: 490px;
+  top: 497px;
   background-color: transparent;
 }
 
@@ -219,7 +219,7 @@ hr {
 
 .terms-conditions {
   position: absolute;
-  top: 475px;
+  top: 482px;
   left: 77px;
 }
 
@@ -369,14 +369,14 @@ button[type="submit"] {
 }
 
 hr {
-  width: 92%;
+  width: 97%;
   border: 1px solid black;
   margin-left: 0px;
 }
 
 .fa-envelope {
   position: absolute;
-  top: 32%;
+  top: 41%;
   left: 370px;
 }
 
@@ -389,8 +389,19 @@ hr {
 
 .fa-user {
   position: absolute;
-  top: 178px;
+  top: 170px;
   left: 370px;
 }
 
+.checkbox {
+  position: absolute;
+  top: 481px;
+  background-color: transparent;
+}
+  
+.terms-conditions {
+  position: absolute;
+  top: 494px;
+  left: 77px;
+}
 }
