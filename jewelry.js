@@ -23,7 +23,7 @@ var silder=[
   var imgg=document.getElementById("main-image");
   var phrase=document.getElementById("sub-title");
   var titre=document.getElementById("main-title");
-  var description=document.getElementById("description");
+  var description=document.getElementById("subtitle");
   var i=0;
 
   function sildershow(){
